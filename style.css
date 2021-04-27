@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+html {
+    font-size: 62.5%;
+    font-family: sans-serif;
+    
+  }
+
+  body {
+   
+    font-size: 1.4rem;
+    }
+    
+    h1 {
+    
+    font-size: 2.4rem;
+    }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+    background-color: #DCDCDC;
+    border: .3rem black solid;
+}
+.nav-list{
+    display: flex;
+}
+.nav-list li {
+   list-style: none;
+    padding: 0 2rem;
+}
+main{
+    height: 85vh;
+    display: flex;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding: 2%;
+    background-color: 	yellow;
+    align-items: center;
+    justify-content: center;
+    border: .3rem black solid;
+}
+
+aside section{
+    height: 20%;
+    width: 80%;
+    padding: 5%;
+    background-color: #FFA07A;
+    margin-bottom: 2rem;
+    border: .3rem black solid;
+
+}
+.container{
+    border: .3rem solid black;
+    margin: auto auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    align-items: center;
+     /* height: 50vh;   */
+    
+}
+.box{
+    width: 10rem; 
+     height: 10rem;
+     flex-basis: 10rem;
+     flex-grow: 1;
+ 
+ }
+ .box1{
+     background-color: red;
+     /* flex-grow: 1; */
+    
+ }
+ .box2{
+     background-color: yellow;
+ }
+ .box3{
+     background-color: yellowgreen;
+ }
+ .box4{
+     background-color: purple;
+ }
+ .box5{
+     background-color: orange;
+ }
+ .box6{
+     background-color: brown;
+ }
+footer{
+    display: flex;
+    justify-content: space-between;
+    height: 5vh;
+    align-items: center;
+    background-color: #FF6347;
+    border: .3rem black solid;
+}
